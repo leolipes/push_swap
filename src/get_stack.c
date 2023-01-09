@@ -6,7 +6,7 @@
 /*   By: lfilipe- <coder@student.42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/01 03:47:27 by lfilipe-          #+#    #+#             */
-/*   Updated: 2022/10/23 04:36:20 by lfilipe-         ###   ########.fr       */
+/*   Updated: 2023/01/09 07:15:25 by lfilipe-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	get_stack(int argc, char **argv, t_stack *stack)
 		return ;
 	while (argc > 0)
 	{
-		stack->a[i] = ft_atoi(argv[argc]);
+		stack->a[i] = ft_atol(argv[argc]);
 		stack->index[i] = stack->a[i];
 		i++;
 		argc--;

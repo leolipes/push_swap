@@ -6,7 +6,7 @@
 /*   By: lfilipe- <coder@student.42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/29 02:10:54 by lfilipe-          #+#    #+#             */
-/*   Updated: 2023/01/09 00:51:03 by lfilipe-         ###   ########.fr       */
+/*   Updated: 2023/01/09 07:45:53 by lfilipe-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void	r_rotate_b(t_stack *stack);
 void	b_to_a(t_stack *stack);
 
 /*=== UTILS ====*/
-int		ft_atoi(char *str);
+long int		ft_atol(char *str);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t nitems, size_t size);
 void	ft_swap(int *a, int *b);

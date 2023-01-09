@@ -6,7 +6,7 @@
 /*   By: lfilipe- <coder@student.42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 00:02:07 by lfilipe-          #+#    #+#             */
-/*   Updated: 2022/10/23 04:34:45 by lfilipe-         ###   ########.fr       */
+/*   Updated: 2023/01/09 07:15:37 by lfilipe-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	check_duplicate(int argc, char **argv)
 	{
 		while (j > 0)
 		{
-			if (ft_atoi(argv[i]) == ft_atoi(argv[j]) && i != j)
+			if (ft_atol(argv[i]) == ft_atol(argv[j]) && i != j)
 			{
 				ft_printf("Error\n");
 				return (1);

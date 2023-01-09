@@ -6,7 +6,7 @@
 /*   By: lfilipe- <coder@student.42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/30 05:53:43 by lfilipe-          #+#    #+#             */
-/*   Updated: 2022/10/23 04:35:09 by lfilipe-         ###   ########.fr       */
+/*   Updated: 2023/01/09 07:48:41 by lfilipe-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,8 @@ int	check_valid_input(int argc, char **argv)
 	{
 		if (((*argv[i] < '0' || *argv[i] > '9')
 				&& (*argv[i] != '-' && *argv[i] != '+'))
-			|| ft_atoi(argv[i]) >= MAX_INT
-			|| ft_atoi(argv[i]) <= MIN_INT)
+			|| ft_atol(argv[i]) > MAX_INT
+			|| ft_atol(argv[i]) < MIN_INT)
 		{
 			ft_printf("Error\n");
 			return (1);

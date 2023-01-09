@@ -6,16 +6,16 @@
 /*   By: lfilipe- <coder@student.42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/01 04:19:33 by lfilipe-          #+#    #+#             */
-/*   Updated: 2022/10/23 04:38:37 by lfilipe-         ###   ########.fr       */
+/*   Updated: 2023/01/09 07:15:57 by lfilipe-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_atoi(char *str)
+long int	ft_atol(char *str)
 {
-	int	res;
-	int	sign;
+	long int	res;
+	long int	sign;
 
 	res = 0;
 	sign = 1;
